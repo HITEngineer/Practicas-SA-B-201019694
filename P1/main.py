@@ -1,7 +1,7 @@
 # main.py
 
-from inventory.services.inventory_service import InventoryService
-from inventory.ui.cli import InventoryCLI
+from Inventory.Services.Inventory_service import InventoryService
+from Inventory.UI.cli import InventoryCLI
 
 if __name__ == "__main__":
     inventory_service = InventoryService()

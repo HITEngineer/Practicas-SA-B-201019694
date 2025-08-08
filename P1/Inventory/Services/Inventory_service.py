@@ -1,7 +1,7 @@
 # inventory/services/inventory_service.py
 
-from inventory.models.product import Product
-from inventory.utils.error_handling import validate_positive_number
+from Inventory.Models.product import Product
+from Inventory.Utils.error_handling import validate_positive_number
 
 class InventoryService:
     def __init__(self):
